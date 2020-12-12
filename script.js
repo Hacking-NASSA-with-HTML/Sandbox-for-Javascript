@@ -24,4 +24,4 @@ let sendbox1 = document.getElementById('body');
 sendbox1.insertAdjacentHTML('afterend', '<p id="example1"><a href="prototype/index1.html" target="_blank">1. Works with Prototype</a></p>');
 
 let sendbox2 = document.getElementById('example1');
-sendbox2.insertAdjacentHTML('afterend', '<p id="example1"><a href="creatingElements/index2.html" target="_blank">2. The insertAdjacentHTML() method to create HTML markup</a></p>');
+sendbox2.insertAdjacentHTML('afterend', '<p id="example2"><a href="creatingElements/index2.html" target="_blank">2. The insertAdjacentHTML() method to create HTML markup</a></p>');
