@@ -1,0 +1,29 @@
+.second-button {
+  width: 150px;
+  height: 100px;
+  border: 1px solid black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  outline: none;
+  transition: all .4s ease;
+  text-align: center;
+  font-family: "Suisse Intl", 'Arial Narrow', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.style_button {
+  background-color: #11068c;
+  color: white;
+}
+
+.over_write_button_style {
+  background-color: #ffffff;
+  color: #11068c;
+}

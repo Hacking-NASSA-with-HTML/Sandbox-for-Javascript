@@ -25,3 +25,6 @@ sendbox1.insertAdjacentHTML('afterend', '<p id="example1"><a href="prototype/ind
 
 let sendbox2 = document.getElementById('example1');
 sendbox2.insertAdjacentHTML('afterend', '<p id="example2"><a href="creatingElements/index2.html" target="_blank">2. The insertAdjacentHTML() method to create HTML markup</a></p>');
+
+let sendbox3 = document.getElementById('example2');
+sendbox3.insertAdjacentHTML('afterend', '<p id="example3"><a href="buttonToggle/index3.html" target="_blank">3. Button toggle with true/false statement</a></p>');
