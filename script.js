@@ -28,3 +28,6 @@ sendbox2.insertAdjacentHTML('afterend', '<p id="example2"><a href="creatingEleme
 
 let sendbox3 = document.getElementById('example2');
 sendbox3.insertAdjacentHTML('afterend', '<p id="example3"><a href="buttonToggle/index3.html" target="_blank">3. Button toggle with true/false statement</a></p>');
+
+let sendbox4 = document.getElementById('example3');
+sendbox4.insertAdjacentHTML('afterend', '<p id="example4"><a href="firstReactAsCDNlink/index4.html" target="_blank">4. Starting React with a CDN link, like JQuery</a></p>');
