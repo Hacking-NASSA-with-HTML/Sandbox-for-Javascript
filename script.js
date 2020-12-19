@@ -1,23 +1,23 @@
 //This code creates a new <p> element:
 let futurePelement = document.createElement('h1');
-let results = document.createElement('p');
+//let results = document.createElement('p');
 
 //To add text to the <p> element, you must create a text node first. This code creates a text node:
 let contentOfFuturePelement = document.createTextNode('This is a Sandbox to play with Javascript.');
-let contentOfResults = document.createTextNode('See Results in the console.');
+//let contentOfResults = document.createTextNode('See Results in the console.');
 
 //Then you must append the text node to the < p > element:
 futurePelement.appendChild(contentOfFuturePelement);
-results.appendChild(contentOfResults);
+//results.appendChild(contentOfResults);
 
 //Finally you must append the new element to an existing element.
 //This code finds an existing element:
 let appendTheNewElementToAnExistingElement = document.getElementById('body');
-let appendResultsToAnExistingElement = document.getElementById('body');
+//let appendResultsToAnExistingElement = document.getElementById('body');
 
 //This code appends the new element to the existing element:
 appendTheNewElementToAnExistingElement.appendChild(futurePelement);
-appendResultsToAnExistingElement.appendChild(results);
+//appendResultsToAnExistingElement.appendChild(results);
 
 //Create chunk of HTML markup using 'afterend'
 let sendbox1 = document.getElementById('body');
@@ -37,3 +37,6 @@ sendbox5.insertAdjacentHTML('afterend', '<p id="example5"><a href="reactExample1
 
 let sendbox6 = document.getElementById('example5');
 sendbox6.insertAdjacentHTML('afterend', '<p id="example6"><a href="6reactButton/index6.html" target="_blank">6. React Button Count on click</a></p>');
+
+let sendbox7 = document.getElementById('example6');
+sendbox7.insertAdjacentHTML('afterend', '<p id="example7"><a href="7reactLikeButton/index7.html" target="_blank">7. React Like Button</a></p>');
