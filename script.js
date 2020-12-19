@@ -40,3 +40,6 @@ sendbox6.insertAdjacentHTML('afterend', '<p id="example6"><a href="6reactButton/
 
 let sendbox7 = document.getElementById('example6');
 sendbox7.insertAdjacentHTML('afterend', '<p id="example7"><a href="7reactLikeButton/index7.html" target="_blank">7. React Like Button</a></p>');
+
+let sendbox8 = document.getElementById('example7');
+sendbox8.insertAdjacentHTML('afterend', '<p id="example8"><a href="8reactMouseHovering/index8.html" target="_blank">8. Mouse hovering using React</a></p>');
