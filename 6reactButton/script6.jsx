@@ -16,7 +16,7 @@ class Counter extends React.Component {
     render() { // invoked when setState is called
         return (
             <div><p>Count: {this.state.count}
-                < button type="button" onClick={this.incrementCount.bind(this)} > Click Me </button></p>
+                <button type="button" onClick={this.incrementCount.bind(this)} > Click Me </button></p>
             </div>
         );
     }
