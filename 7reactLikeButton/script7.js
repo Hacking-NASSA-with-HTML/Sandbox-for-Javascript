@@ -8,7 +8,7 @@ appendResultsToAnExistingElement.appendChild(results);
 
 // Creating one more <p> element with JS
 let results1 = document.createElement("p");
-let contentOfResults1 = document.createTextNode("Click on words \"Like\" besides words Java and Javascript.");
+let contentOfResults1 = document.createTextNode("Click on words \"Like\" next to words Java and Javascript.");
 results1.appendChild(contentOfResults1);
 let appendResultsToAnExistingElement1 = document.getElementById("body");
 appendResultsToAnExistingElement1.appendChild(results1);
