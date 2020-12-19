@@ -34,3 +34,6 @@ sendbox4.insertAdjacentHTML('afterend', '<p id="example4"><a href="firstReactAsC
 
 let sendbox5 = document.getElementById('example4');
 sendbox5.insertAdjacentHTML('afterend', '<p id="example5"><a href="reactExample1/index5.html" target="_blank">5. React example Counter</a></p>');
+
+let sendbox6 = document.getElementById('example5');
+sendbox6.insertAdjacentHTML('afterend', '<p id="example6"><a href="6reactButton/index6.html" target="_blank">6. React Button Count on click</a></p>');
