@@ -8,14 +8,14 @@ appendResultsToAnExistingElement.appendChild(results);
 
 // Creating one more <p> element with JS
 let results1 = document.createElement("p");
-let contentOfResults1 = document.createTextNode("There is a Counter, which shows how many times the page was reloaded.");
+let contentOfResults1 = document.createTextNode("There is a Counter, which shows how many times the button was clicked.");
 results1.appendChild(contentOfResults1);
 let appendResultsToAnExistingElement1 = document.getElementById("body");
 appendResultsToAnExistingElement1.appendChild(results1);
 
 // Creating one more <p> element with JS
 let results2 = document.createElement("p");
-let contentOfResults2 = document.createTextNode("Reload the page to set zero increments.");
+let contentOfResults2 = document.createTextNode("Reload the page to set zero clicks.");
 results2.appendChild(contentOfResults2);
 let appendResultsToAnExistingElement2 = document.getElementById("body");
 appendResultsToAnExistingElement2.appendChild(results2);
