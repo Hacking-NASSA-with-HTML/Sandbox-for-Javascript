@@ -49,3 +49,7 @@ sendbox9.insertAdjacentHTML('afterend', '<p id="example9"><a href="9filteredList
 
 let sendbox10 = document.getElementById('example9');
 sendbox10.insertAdjacentHTML('afterend', '<p id="example10"><a href="10reactTODOlist/index10.html" target="_blank">10. Todo List  using React</a></p>');
+
+
+let sendbox11 = document.getElementById('example10');
+sendbox11.insertAdjacentHTML('afterend', '<p id="example11"><a href="11Multiplier/index11.html" target="_blank">11. Multiplier React</a></p>');
