@@ -33,4 +33,4 @@ let sendbox4 = document.getElementById('example3');
 sendbox4.insertAdjacentHTML('afterend', '<p id="example4"><a href="firstReactAsCDNlink/index4.html" target="_blank">4. Starting React with a CDN link, like JQuery</a></p>');
 
 let sendbox5 = document.getElementById('example4');
-sendbox5.insertAdjacentHTML('afterend', '<p id="example5"><a href="reactExample1/index5.html" target="_blank">5. React example Button</a></p>');
+sendbox5.insertAdjacentHTML('afterend', '<p id="example5"><a href="reactExample1/index5.html" target="_blank">5. React example Counter</a></p>');
