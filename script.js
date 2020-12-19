@@ -1,5 +1,5 @@
 //This code creates a new <p> element:
-let futurePelement = document.createElement('p');
+let futurePelement = document.createElement('h1');
 let results = document.createElement('p');
 
 //To add text to the <p> element, you must create a text node first. This code creates a text node:
